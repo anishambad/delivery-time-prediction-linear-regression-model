@@ -2,6 +2,9 @@
 
 ![Python](https://img.shields.io/badge/Python-3.9+-blue?logo=python)
 ![Pandas](https://img.shields.io/badge/Pandas-Data%20Analysis-yellow?logo=pandas)
+![NumPy](https://img.shields.io/badge/NumPy-Numerical%20Computing-lightblue?logo=numpy)
+![Seaborn](https://img.shields.io/badge/Seaborn-Data%20Viz-teal?logo=seaborn)
+![Matplotlib](https://img.shields.io/badge/Matplotlib-Plotting-green?logo=plotly)
 ![Scikit-learn](https://img.shields.io/badge/Scikit--learn-Machine%20Learning-orange?logo=scikit-learn)
 ![Streamlit](https://img.shields.io/badge/Streamlit-Web%20App-red?logo=streamlit)
 
@@ -11,17 +14,14 @@ This project is an interactive **Streamlit web application** that predicts deliv
 The underlying model is a **Linear Regression** trained on encoded features and achieves an accuracy of ~81%.  
 It’s designed to showcase an end‑to‑end ML workflow — from preprocessing and training to deployment with Streamlit.
 
----
-
 ## ✨ Features
 - 📊 **Accurate Predictions** – Predicts delivery time in minutes using a regression model.  
 - 🎛️ **Interactive UI** – Numeric inputs and dropdowns for categorical features.  
 - 🌦️ **Realistic Factors** – Weather, traffic, time of day, and vehicle type included.  
 - 🌐 **Streamlit Powered** – Clean, responsive web interface.  
 
----
-
 ## 📂 Project Structure
+
 delivery-time-predictor/
 │
 ├── app.py                # Streamlit UI
@@ -30,37 +30,38 @@ delivery-time-predictor/
 ├── README.md             # Project overview
 └── .gitignore            # Ignore unnecessary files
 
-## 🚀 Getting Started
+## 🏁 Quick Setup Guide
 
-### 
-1️⃣ Clone the repository
-
+### 1️⃣ Clone the repository
 ```bash
-git clone https://github.com/<your-username>/delivery-time-predictor.git
+git clone https://github.com/<anishambad>/delivery-time-predictor.git
 cd delivery-time-predictor
-
+```
 2️⃣ Install dependencies
-bash
+```bash
 pip install -r requirements.txt
-
+```
 3️⃣ Run the app
-bash
+```bash
 streamlit run app.py
+```
 
 🛠️ Tech Stack
 
 🐍 Python
 📦 Pandas
+🔢 NumPy
+🎨 Seaborn
+📊 Matplotlib
 📈 Scikit-learn
 🌐 Streamlit
 
-📈 Model Details 
+📈 Model Details
 
 Algorithm: Linear Regression
 Training: Encoded categorical + numeric features
 Accuracy: ~81%
 
+
 👤 Author
 Built by Anish — Third‑year Computer Engineering student at SPPU, passionate about data science, analytics, and machine learning.
-
-
