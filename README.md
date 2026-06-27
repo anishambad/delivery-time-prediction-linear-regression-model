@@ -56,11 +56,11 @@ streamlit run app.py
 📈 Scikit-learn
 🌐 Streamlit
 
-📈 Model Details
+## 📈 Model Details
+1. Algorithm: **Linear Regression**  
+2. Training: Encoded categorical + numeric features  
+3. Accuracy: **~81%**  
 
-Algorithm: Linear Regression
-Training: Encoded categorical + numeric features
-Accuracy: ~81%
 
 
 👤 Author
