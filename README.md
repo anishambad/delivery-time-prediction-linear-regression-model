@@ -8,6 +8,11 @@
 ![Scikit-learn](https://img.shields.io/badge/Scikit--learn-Machine%20Learning-orange?logo=scikit-learn)
 ![Streamlit](https://img.shields.io/badge/Streamlit-Web%20App-red?logo=streamlit)
 
+
+## 🌟 Live Demo
+Try the app here: [Delivery Time Prediction App](https://delivery-time-prediction-linear-regression-model-m8yxlvhhkazor.streamlit.app/)
+
+
 Welcome to the **Delivery Time Prediction App** 🎉  
 This project is an interactive **Streamlit web application** that predicts delivery time based on multiple real‑world factors such as distance, preparation time, courier experience, weather, traffic, time of day, and vehicle type.  
 
