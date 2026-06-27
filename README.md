@@ -22,6 +22,7 @@ It’s designed to showcase an end‑to‑end ML workflow — from preprocessing
 
 ## 📂 Project Structure
 
+```bash
 delivery-time-predictor/
 │
 ├── app.py                # Streamlit UI
@@ -29,6 +30,7 @@ delivery-time-predictor/
 ├── requirements.txt      # Dependencies
 ├── README.md             # Project overview
 └── .gitignore            # Ignore unnecessary files
+```
 
 ## 🏁 Quick Setup Guide
 
